@@ -14,6 +14,9 @@ namespace GenericsFindMax
         private static readonly float[] floatTestCase1;
         private static readonly float[] floatTestCase2;
         private static readonly float[] floatTestCase3;
+        private static readonly string[] stringTestCase1;
+        private static readonly string[] stringTestCase2;
+        private static readonly string[] stringTestCase3;
 
 
         static TestCases()
@@ -24,6 +27,9 @@ namespace GenericsFindMax
             floatTestCase1 = new float[] { 9.9f, 1.7f, 7.8f };
             floatTestCase2 = new float[] { 1.1f, 7.7f, 5.2f };
             floatTestCase3 = new float[] { 2.1f, 5.5f, 7.7f };
+            stringTestCase1 = new string[] { "Abc", "Apple", "Abcd" };
+            stringTestCase2 = new string[] { "B", "Badminton", "B" };
+            stringTestCase3 = new string[] { "C", "C", "Cabbage" };
 
         }
 
@@ -34,6 +40,9 @@ namespace GenericsFindMax
         public static float[] FloatTestCase1 => floatTestCase1;
         public static float[] FloatTestCase2 => floatTestCase2;
         public static float[] FloatTestCase3 => floatTestCase3;
+        public static string[] StringTestCase1 => stringTestCase1;
+        public static string[] StringTestCase2 => stringTestCase2;
+        public static string[] StringTestCase3 => stringTestCase3;
 
         public static string GetString<T>(T[] testCase)
         {
