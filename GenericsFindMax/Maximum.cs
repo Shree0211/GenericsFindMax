@@ -13,4 +13,8 @@ internal class Maximum<T> where T : IComparable
         Array.Sort(array);
         Console.WriteLine($"Max value is: {array[2]}");
     }
+    private void PrintMax(T[] value)
+    {
+        Console.WriteLine($"Max value is: {value[^1]}");
+    }
 }
