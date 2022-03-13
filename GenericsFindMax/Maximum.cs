@@ -1,11 +1,20 @@
 ﻿namespace MaximumGenerics;
 
-internal static class Maximum<T> where T : IComparable
+internal class Maximum<T> where T : IComparable
 {
-    public static void Max(T var1, T var2, T var3)
+    private T[] array;
+    public Maximum(T[] array)
     {
-        T[] array = new T[] { var1, var2, var3 };
+        this.array = array;
+    }
+    public void Max(params T[] array)
+    {
+        this.array = array;
         Array.Sort(array);
         Console.WriteLine($"Max value is: {array[2]}");
+    }
+    private void PrintMax(T[] value)
+    {
+        Console.WriteLine($"Max value is: {value[^1]}");
     }
 }
