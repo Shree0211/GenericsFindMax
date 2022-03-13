@@ -17,15 +17,15 @@ internal static class TestCases
     /// </summary>
     static TestCases()
     {
-        intTestCase1 = new int[] { 5, 3, 9 };
-        intTestCase2 = new int[] { 0, 4, 3 };
-        intTestCase3 = new int[] { 7, 5, 4 };
-        floatTestCase1 = new float[] { 1.3f, 2.5f, 5.7f };
-        floatTestCase2 = new float[] { 2.3f, 7.5f, 5.7f };
-        floatTestCase3 = new float[] { 9.3f, 8.5f, 5.7f };
-        stringTestCase1 = new string[] { "Apple", "Banana", "Chocolate" };
-        stringTestCase2 = new string[] { "Choco", "Chocolate", "Banana" };
-        stringTestCase3 = new string[] { "Zoom", "Zap", "Zip" };
+        intTestCase1 = new int[] { 18, 6, 17 };
+        intTestCase2 = new int[] { 1, 9, 6 };
+        intTestCase3 = new int[] { 19, 8, 22 };
+        floatTestCase1 = new float[] { 9.9f, 1.7f, 7.8f };
+        floatTestCase2 = new float[] { 1.1f, 7.7f, 5.2f };
+        floatTestCase3 = new float[] { 2.1f, 5.5f, 7.7f };
+        stringTestCase1 = new string[] { "Abc", "Apple", "Abcd" };
+        stringTestCase2 = new string[] { "B", "Badminton", "B" };
+        stringTestCase3 = new string[] { "C", "C", "Cabbage" };
     }
 
     /// <summary>
